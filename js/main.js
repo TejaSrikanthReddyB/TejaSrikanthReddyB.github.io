@@ -107,3 +107,13 @@
     
 })(jQuery);
 
+
+
+document.getElementById('toggleBtn').addEventListener('click', function() {
+    const bulletList = document.getElementById('bulletList');
+    if (bulletList.style.display === 'none') {
+      bulletList.style.display = 'block';
+    } else {
+      bulletList.style.display = 'none';
+    }
+  });
