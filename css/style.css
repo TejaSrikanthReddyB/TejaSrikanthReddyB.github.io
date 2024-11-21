@@ -730,7 +730,7 @@ a:focus {
 .service {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 45px 0 30px 0;
 }
 
 .service .service-item {
@@ -801,6 +801,14 @@ a:focus {
     .service .service-text p {
         font-size: 14px;
     }
+}
+
+/*******************************/
+/******** Skills CSS ********/
+/*******************************/
+.skills {
+    position: relative;
+    padding: 45px 0 15px 0;
 }
 
 
@@ -1458,6 +1466,43 @@ a:focus {
     margin: 0;
 }
 
+.certifications {
+    position: relative;
+    padding: 60px 0 80px 0;
+}
+
+.certification-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certification-item {
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+.certification-wrap {
+    background: none; /* Remove box background */
+    padding: 0; /* Remove padding */
+    text-align: left; /* Align content to the left */
+}
+
+.certification-img img {
+    width: 50px; /* Make logo smaller */
+    height: auto;
+    margin-bottom: 10px;
+}
+.certification-text h5 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.certification-text p {
+    font-size: 1em;
+    color: #666;
+}
 
 /*******************************/
 /********* Footer CSS **********/
